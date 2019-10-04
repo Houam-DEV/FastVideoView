@@ -17,13 +17,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion '22.0.1'
+    compileSdkVersion 26
 
     defaultConfig {
         applicationId 'com.warnyul.android.fastvideoview'
         minSdkVersion 14
-        targetSdkVersion 22
+        targetSdkVersion 26
         versionCode 1
         versionName VERSION_NAME
     }
@@ -36,6 +35,6 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile project(':video')
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':video')
 }
