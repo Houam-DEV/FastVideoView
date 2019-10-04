@@ -17,10 +17,10 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 28
 
     defaultConfig {
-        minSdkVersion 14
+        minSdkVersion 17
     }
 
     compileOptions {
